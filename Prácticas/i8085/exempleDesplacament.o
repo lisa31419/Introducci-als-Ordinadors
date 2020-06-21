@@ -1,0 +1,13 @@
+.DATA 50h 00h
+55h 
+.ORG 00h 01h
+3Ah 50h 00h 
+0Eh 08h 
+07h 
+0Dh 
+F2h 05h 01h 
+0Eh 08h 
+0Fh 
+0Dh 
+F2h 0Ch 01h 
+76h 

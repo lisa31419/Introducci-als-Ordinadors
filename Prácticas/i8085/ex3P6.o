@@ -1,0 +1,16 @@
+.DATA 00h 00h
+77h 
+44h 
+3Eh 
+6Eh 
+4Dh 
+6Bh 
+00h 
+.ORG 24h 00h
+DBh 00h 
+D6h 30h 
+5Fh 
+1Ah 
+D3h 00h 
+C3h 24h 00h 
+76h 

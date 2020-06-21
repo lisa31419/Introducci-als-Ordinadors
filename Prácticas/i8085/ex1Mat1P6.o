@@ -1,0 +1,24 @@
+.DATA 00h 00h
+01h 02h 
+03h 04h 
+00h 00h 
+.DATA 20h 00h
+.ORG 00h 06h
+21h 20h 00h 
+F9h 
+06h 02h 
+11h 00h 00h 
+21h 02h 00h 
+CDh 15h 06h 
+05h 
+C2h 0Ch 06h 
+00h 
+76h 
+F5h 
+1Ah 
+86h 
+12h 
+23h 
+13h 
+F1h 
+C9h 

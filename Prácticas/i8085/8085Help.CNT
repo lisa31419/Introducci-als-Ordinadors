@@ -1,0 +1,260 @@
+:Base 8085Help.HLP
+1 Introducción al simulador del microprocesador 8085 de Intel=1
+1 Instalación y Requerimientos del programa=2
+1 Empezar a trabajar con el simulador
+2 Introducción=3
+2 Iniciar Simulador 8085=4
+2 Entender la pantalla de Simulador 8085=5
+2 Usar menús y barras de herramientas=6
+2 Trabajar en los cuadros de diálogo=7
+2 Salir del simulador=8
+1 La pantalla del simulador
+2 Introducción=9
+2 Registros de la CPU=10
+2 Bits de estado=11
+2 Puertos de Entrada y Salida=12
+2 Memoira de instrucciones=13
+2 Memoria de datos y memoria de pila=14
+2 Control de ejecución=15
+2 Panel de interrupciones=16
+2 Entrada/Salida serie=17
+1 Conocer los menús del simulador
+2 Introducción=18
+2 Menú Archivo
+3 Opciones del menú=19
+3 Opción Nuevo=28
+3 Opción Cargar OBJ=29
+3 Opción Editor ASM=30
+3 Opción Salir=31
+2 Menú Ejecutar
+3 Opciones del menú=20
+3 Opción Paso a paso=32
+3 Opción Paso a paso (sin subrutinas)=33
+3 Opción Continuo=34
+3 Opción Parar=35
+3 Opción Continuo (Ignora BP)=36
+3 Opción Instrucción (Modo directo)=37
+2 Menú Instrucciones
+3 Opciones del menú=21
+3 Opción Cambiar Nemotécnico=38
+3 Opción Cambiar Código=39
+3 Opción BreakPoint (Si/No)=40
+3 Opción Situar PC=41
+3 Opción Deshacer último cambio=42
+3 Opción Eliminar todos BreakPoints=43
+3 Opción Ir a dirección...=44
+3 Opción Ir a dirección de PC=45
+3 Opción Ir a dirección de programa=46
+2 Menú Memoria
+3 Opciones del menú=22
+3 Opción Rellenar=47
+3 Opción Deshacer último cambio=48
+3 Submenú V. Datos
+4 Opciones del submenú=49
+4 Opción Ir a dirección...=51
+4 Opción Ir a dirección de datos=52
+3 Submenú V. Pila
+4 Opciones del submenú=50
+4 Opción Ir a dirección=53
+4 Opción Ir a dirección de SP=54
+2 Menú Puertos
+3 Opciones del menú=23
+3 Opción Rellenar puertos Salida=55
+3 Opción Rellenar puertos Entrada=56
+3 Opción Ir a puerto...=57
+2 Menú Dispositivos
+3 Opciones del menú=24
+3 Opción Panel de LEDs=58
+3 Opción Pantalla de texto=59
+3 Opción Panel de interruptores=60
+3 Opción Teclado=61
+3 Submenú Pantalla Gráfica
+4 Opciones del submenú=62
+4 Opción 256x200 [2 colores]=64
+4 Opción 160x100 [16 colores]=65
+4 Opción 160x100 [256 colores]=66
+3 Submenú Visualizadores
+4 Opciones del submenú=63
+4 Opción 7 segmentos=67
+4 Opción 15 segmentos=68
+2 Menú Opciones
+3 Opciones del menú=25
+3 Opción De Ejecución=69
+3 Opción De Interrupciones=70
+3 Opción De Edición=71
+2 Menú Utilidades
+3 Opciones del menú=26
+3 Opción Simplificador de Expresiones=72
+3 Opción Imágenes RAW=73
+3 Opción Calculadora=74
+2 Menú Ayuda
+3 Opciones del menú=27
+3 Opción Ayuda 8085=75
+3 Opción Acerca de...=76
+1 Editor de textos del simulador
+2 Empezar con el editor de 8085
+3 Introducción=200
+3 Iniciar Editor 8085 para Windows=201
+3 Entender la pantalla de Editor 8085=202
+3 Salir del editor=203
+2 Conocer los menús del editor de textos
+3 Introducción=204
+3 Menú Archivo
+4 Opciones del menú=205
+4 Opción Nuevo (menú Archivo)=211
+4 Opción Abrir... (menú Archivo)=212
+4 Opción Cerrar (menú Archivo)=213
+4 Opción Covertir programa objeto... (menú Archivo)=242
+4 Opción Guardar (menú Archivo)=214
+4 Opción Guardar como... (menú Archivo)=215
+4 Opción Imprimir... (menú Archivo)=216
+4 Opción Salir (menú Archivo)=217
+3 Menú Edición
+4 Opciones del menú=206
+4 Opción Deshacer (menú Edición)=218
+4 Opción Cortar (menú Edición)=219
+4 Opción Copiar (menú Edición)=220
+4 Opción Pegar (menú Edición)=221
+4 Opción Eliminar (menú Edición)=222
+4 Opción Seleccionar todo (menú Edición)=223
+4 Submenú Propiedades
+5 Opciones del submenú=224
+5 Opción Ajuste de línea (submenú Propiedades)=225
+5 Opción Establecer fuente... (submenú Propiedades)=226
+5 Opción Establecer color de fondo... (submenú Propiedades)=227
+5 Opción Autocompletar (submenú Propiedades)=228
+3 Menú Buscar
+4 Opciones del menú=207
+4 Opción Buscar... (menú Buscar)=229
+4 Opción Reemplazar... (menú Buscar)=230
+4 Opción Ir a línea... (menú Buscar)=231
+3 Menú Ver
+4 Opciones del menú=208
+4 Opción Barra de herramientas (menú Ver)=232
+4 Opción Salida ensamblaje (menú Ver)=233
+3 Menú Ensamblar
+4 Opciones del menú=209
+4 Opción Ensamblar=234
+3 Menú Ayuda
+4 Opciones del menú=210
+4 Opción Ayuda 8085 (menú Ayuda)=235
+4 Opción Acerca de... (menú Ayuda)=236
+2 Las tareas básicas de edición
+3 Introducción=237
+3 Insertar texto=238
+3 Desplazarse por el documento=239
+3 Seleccionar texto=240
+3 Borrar, Copiar y Pegar texto=241
+2 Otras funciones que incorpora el editor
+3 Introducción=243
+3 Obtener ayuda en línea=244
+1 Conjunto de instrucciones del microprocesador 8085
+2 Conjunto de instrucciones=99
+2 Instrucciones especiales
+3 Instrucción NOP=188
+3 Instrucción RST=189
+3 Instrucción HLT=190
+2 Instrucciones de interrupción
+3 Instrucción RIM=191
+3 Instrucción SIM=192
+2 Instrucciones del bit de arrastre
+3 Instrucciones del bit de arrastre=100
+3 CMC - Complemento de arrastre=101
+3 STC - Poner a 1 el bit de arrastre=102
+2 Instrucciones de un registro
+3 Instrucciones de un registro=103
+3 INR - Incrementar contenido de registro o memoria=104
+3 DCR - Decrementar contenido de registro o memoria=105
+3 CMA - Complementar el contenido del acumulador=106
+3 DAA - Ajuste decimal del acumulador=107
+2 Instrucciones de transferencia de datos
+3 Instrucciones de transferencia de datos=108
+3 MOV - Movimiento=109
+3 STAX - Almacenar contenido del acumulador=110
+3 LDAX - Cargar el acumulador=111
+2 Instrucciones de registro o memoria al acumulador
+3 Instrucciones de registro o memoria al acumulador=112
+3 ADD - Sumar registro o memoria al acumulador=113
+3 ADC - Sumar registro o memoria al acumulador con arrastre=114
+3 SUB - Restar registro o memoria del acumulador=115
+3 SBB - Restar registro o memoria del acumulador con arrastre=116
+3 ANA - Función lógica AND de registro o memoria con acumulador=117
+3 XRA - Función lógica O-EXCLUSIVO de registro o memoria con acumulador=118
+3 ORA - Función lógica OR entre registro o memoria con acumulador=119
+3 CMP - Comparar registro o memoria con acumulador=120
+2 Instrucciones de rotación del acumulador
+3 Instrucciones de rotación del acumulador=121
+3 RLC - Desplazar el acumulador a la izquierda=122
+3 RRC - Desplazar el acumulador a la derecha=123
+3 RAL - Desplazar el acumulador a la izquierda a través del bit de arrastre=124
+3 RAR - Desplazar el acumulador a la derecha a través del bit de arrastre=125
+2 Instrucciones con pares de registros
+3 Instrucciones con pares de registros=126
+3 PUSH - Colocar datos en stack=127
+3 POP - Sacar datos del stack=128
+3 DAD - Suma doble=129
+3 INX - Incrementar par de registros=130
+3 DCX - Decrementar par de registros=131
+3 XCHG - Intercambiar datos entre registros=132
+3 XTHL - Intercambiar datos con el stack=133
+3 SPHL - Cargar el puntero del stack desde los registros H y L=134
+2 Instrucciones con datos inmediatos
+3 Instrucciones con datos inmediatos=135
+3 LXI - Cargar un par de registros con un dato inmediato=136
+3 MVI - Cargar un registro con un dato inmediato=137
+3 ADI - Sumar al acumulador un dato inmediato=138
+3 ACI - Sumar al acumulador un dato inmediato con arrastre=139
+3 SUI - Restar del acumulador un dato inmediato=140
+3 SBI - Restar del acumulador un dato inmediato con arrastre=141
+3 ANI - Función lógica AND entre el acumulador y un dato inmediato=142
+3 XRI - Función lógica O-EXCLUSIVO entre el acumulador y un dato inmediato=143
+3 ORI - Función lógica OR entre el acumulador y un dato inmediato=144
+3 CPI - Comparar el contenido del acumulador con un dato inmediato=145
+2 Instrucciones de direccionamiento directo
+3 Instrucciones de direccionamiento directo=146
+3 STA - Almacenamiento directo desde el acumulador=147
+3 LDA - Carga directa del acumulador=148
+3 SHLD - Cargar directamente con H y L=149
+3 LHLD - Cargar H y L directamente=150
+2 Instrucciones de salto
+3 Instrucciones de salto=151
+3 PCHL - Cargar el contador de programa=152
+3 JMP - Salto incondicional=153
+3 JC - Saltar si hay arrastre=154
+3 JNC - Saltar si no hay arrastre=155
+3 JZ - Saltar si hay cero=156
+3 JNZ - Saltar si no hay cero=157
+3 JM - Saltar si hay signo negativo=158
+3 JP - Saltar si hay signo positivo=159
+3 JPE - Saltar si la paridad es par=160
+3 JPO - Saltar si la paridad es impar=161
+2 Instrucciones de llamada a subrutinas
+3 Instrucciones de llamada a subrutinas=162
+3 CALL - Llamada incondicional=163
+3 CC - Llamar si hay arrastre=164
+3 CNC - Llamar si no hay arrastre=165
+3 CZ - Llamar si hay cero =166
+3 CNZ - Llamar si no hay cero=167
+3 CM - Llamar si hay signo negativo=168
+3 CP - Llamar si hay signo positivo=169
+3 CPE - Llamar si la paridad es par=170
+3 CPO - Llamar si la paridad es impar=171
+2 Instrucciones de retorno desde subrutina
+3 Instrucciones de retorno desde subrutina=172
+3 RET - Retorno incondicional=173
+3 RC - Retorno si hay arrastre=174
+3 RNC - Retorno si no hay arrastre=175
+3 RZ - Retorno si hay cero=176
+3 RNZ - Retorno si no hay cero=177
+3 RM - Retorno si hay signo negativo=178
+3 RP - Retorno si hay signo positivo=179
+3 RPE - Retorno si la paridad es par=180
+3 RPO - Retorno si la paridad es impar=181
+2 Instrucciones del flip-flop de interrupción
+3 Instrucciones del flip-flop de interrupción=182
+3 EI - Activar interrupciones=183
+3 DI - Desactivar interrupciones=184
+2 Instrucciones de Entrada/Salida
+3 Instrucciones de Entrada/Salida=185
+3 IN - Entrada=186
+3 OUT - Salida=187

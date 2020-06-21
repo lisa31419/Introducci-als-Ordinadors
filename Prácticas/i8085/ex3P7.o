@@ -1,0 +1,220 @@
+.DATA 00h 00h
+30h 31h 32h 33h 34h 35h 36h 37h 38h 39h 2Bh 2Dh 26h 7Ch 3Dh 
+.ORG 00h 01h
+.ORG 00h 02h
+21h 00h 01h 
+F9h 
+06h E0h 
+0Eh 00h 
+CDh 00h 0Eh 
+C3h 0Bh 02h 
+.ORG 24h 00h
+CDh 00h 03h 
+C9h 
+.ORG 00h 03h
+DBh 00h 
+FEh 00h 
+CAh 17h 03h 
+CDh 18h 03h 
+FEh 00h 
+CAh 17h 03h 
+02h 
+03h 
+FEh 3Dh 
+CAh 00h 05h 
+C9h 
+C9h 
+D5h 
+E5h 
+1Eh 0Fh 
+21h 00h 00h 
+56h 
+BAh 
+CAh 2Ch 03h 
+23h 
+1Dh 
+C2h 1Fh 03h 
+C3h 30h 03h 
+7Ah 
+C3h 32h 03h 
+3Eh 00h 
+E1h 
+D1h 
+C9h 
+.ORG 00h 05h
+60h 
+69h 
+2Bh 
+2Bh 
+7Eh 
+D6h 30h 
+5Fh 
+2Bh 
+CDh 00h 06h 
+FEh 00h 
+CAh 25h 05h 
+CDh 00h 0Ch 
+83h 
+5Fh 
+2Bh 
+CDh 00h 06h 
+FEh 00h 
+CAh 25h 05h 
+CDh 0Eh 0Ch 
+83h 
+5Fh 
+2Bh 
+2Bh 
+7Eh 
+D6h 30h 
+57h 
+2Bh 
+7Eh 
+FEh 0Dh 
+CAh 45h 05h 
+7Eh 
+CDh 00h 0Ch 
+82h 
+57h 
+2Bh 
+7Eh 
+FEh 0Dh 
+CAh 44h 05h 
+7Eh 
+CDh 0Eh 0Ch 
+82h 
+57h 
+23h 
+23h 
+23h 
+7Eh 
+FEh 2Bh 
+CAh 00h 07h 
+FEh 2Dh 
+CAh 00h 08h 
+FEh 26h 
+CAh 00h 0Ah 
+FEh 7Ch 
+CAh 00h 0Bh 
+C3h 00h 0Eh 
+C9h 
+.ORG 00h 06h
+7Eh 
+FEh 2Bh 
+CAh 16h 06h 
+FEh 2Dh 
+CAh 16h 06h 
+FEh 26h 
+CAh 16h 06h 
+FEh 7Ch 
+CAh 16h 06h 
+C9h 
+3Eh 00h 
+C9h 
+.ORG 00h 07h
+7Ah 
+83h 
+CDh 00h 0Dh 
+CDh 00h 0Eh 
+3Eh 00h 
+C9h 
+.ORG 00h 08h
+7Ah 
+93h 
+F2h 08h 08h 
+CDh 00h 09h 
+CDh 00h 0Dh 
+CDh 00h 0Eh 
+3Eh 00h 
+C9h 
+.ORG 00h 09h
+7Bh 
+92h 
+F5h 
+3Eh 2Dh 
+02h 
+03h 
+F1h 
+C9h 
+.ORG 00h 0Ah
+7Ah 
+A3h 
+CDh 00h 0Dh 
+CDh 00h 0Eh 
+3Eh 00h 
+C9h 
+.ORG 00h 0Bh
+7Ah 
+B3h 
+CDh 00h 0Dh 
+CDh 00h 0Eh 
+3Eh 00h 
+C9h 
+.ORG 00h 0Ch
+D5h 
+D6h 30h 
+16h 09h 
+86h 
+D6h 30h 
+15h 
+C2h 05h 0Ch 
+D1h 
+C9h 
+D5h 
+D6h 30h 
+16h 63h 
+86h 
+D6h 30h 
+15h 
+C2h 13h 0Ch 
+D1h 
+C9h 
+.ORG 00h 0Dh
+D5h 
+E5h 
+67h 
+D6h 64h 
+F2h 14h 0Dh 
+C6h 64h 
+D6h 0Ah 
+F2h 2Ch 0Dh 
+C6h 0Ah 
+C3h 3Dh 0Dh 
+16h 00h 
+14h 
+D6h 64h 
+F2h 16h 0Dh 
+C6h 64h 
+67h 
+7Ah 
+C6h 30h 
+02h 
+03h 
+7Ch 
+D6h 0Ah 
+16h 00h 
+FAh 34h 0Dh 
+16h 00h 
+14h 
+D6h 0Ah 
+F2h 2Eh 0Dh 
+C6h 0Ah 
+67h 
+7Ah 
+C6h 30h 
+02h 
+03h 
+7Ch 
+C6h 30h 
+02h 
+03h 
+E1h 
+D1h 
+C9h 
+.ORG 00h 0Eh
+F5h 
+3Eh 0Dh 
+02h 
+03h 
+F1h 
+C9h 
